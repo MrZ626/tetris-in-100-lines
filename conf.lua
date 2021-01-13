@@ -1,1 +1,19 @@
-﻿function love.conf(t)t.window.title,t.window.width,t.window.height,t.window.resizable,t.modules.audio,t.modules.data,t.modules.image,t.modules.joystick,t.modules.math,t.modules.mouse,t.modules.physics,t.modules.sound,t.modules.thread,t.modules.touch,t.modules.video="极简方块",400,800 end
+﻿function love.conf(t)
+	local W=t.window
+	W.title="极简方块"
+	W.width,W.height=400,800
+	W.resizable=false
+
+	local M=t.modules
+	M.audio=false
+	M.data=false
+	M.image=false
+	M.joystick=false
+	M.math=false
+	M.mouse=false
+	M.physics=false
+	M.sound=false
+	M.thread=false
+	M.touch=false
+	M.video=false
+end
