@@ -1,0 +1,1 @@
+﻿function love.conf(t)t.window.title,t.window.width,t.window.height,t.window.resizable,t.modules.audio,t.modules.data,t.modules.image,t.modules.joystick,t.modules.math,t.modules.mouse,t.modules.physics,t.modules.sound,t.modules.thread,t.modules.touch,t.modules.video="极简方块",400,800 end
